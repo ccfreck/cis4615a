@@ -15,11 +15,11 @@ final class Foo
 {
     private Helper helper;
 
-    public Helper getHelper()
+    public synchronized Helper getHelper()
     {
         return helper;
     }
-    public void setHelper(int num)
+    public synchronized void setHelper(int num)
     {
         helper = new Helper(num);
     }
