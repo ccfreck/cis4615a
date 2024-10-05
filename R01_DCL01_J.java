@@ -4,7 +4,7 @@ public class R01_DCL01_J
 {
     public static void main(String[] args)
     {
-        Vector v = new Vector();
+        myVectorVector v = new Vector();
         if (v.isEmpty())
         {
             System.out.println("Vector is empty.");
@@ -12,7 +12,7 @@ public class R01_DCL01_J
     }
 }
 
-class Vector
+class myVector
 {
     private int val = 1;
 
